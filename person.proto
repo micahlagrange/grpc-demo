@@ -1,0 +1,10 @@
+syntax = "proto3";
+package protodemo;
+
+message Person {
+  string name = 1;
+  int32 id = 2;
+  int32 age = 4;
+  float birthday = 3;
+  string book = 5;
+}
